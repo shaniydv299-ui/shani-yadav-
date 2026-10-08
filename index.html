@@ -1,0 +1,287 @@
+4<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shani Digital Hub</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #06101f;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #081526;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #19a7ff;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #19a7ff;
+        }
+
+        .hero {
+            min-height: 500px;
+            padding: 100px 8%;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #06101f, #0b2947);
+        }
+
+        .hero-text {
+            max-width: 650px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin: 15px 0;
+        }
+
+        .hero h1 span {
+            color: #19a7ff;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #cbd5e1;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 22px;
+            background: #168df5;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        section {
+            padding: 70px 8%;
+        }
+
+        .title {
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+        .title span {
+            color: #19a7ff;
+        }
+
+        .about {
+            background: #081526;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #0c1c31;
+            padding: 30px;
+            border-radius: 15px;
+            flex: 1;
+            min-width: 180px;
+            border: 1px solid #173554;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: #19a7ff;
+        }
+
+        .card h3 {
+            color: #19a7ff;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            background: #081526;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #030914;
+            color: #9ca3af;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            section {
+                padding: 50px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Shani Digital Hub</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+
+            <p>Hello, I'm</p>
+
+            <h1>Shani <span>Digital</span></h1>
+
+            <p>
+                Computer Learner | Video Editor | AI Explorer
+            </p>
+
+            <p>
+                मैं Computer, Web Development, Video Editing
+                और AI जैसी नई skills सीख रहा हूँ।
+            </p>
+
+            <a href="#projects" class="btn">
+                View My Projects →
+            </a>
+
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+
+        <h2 class="title">About <span>Me</span></h2>
+
+        <p>
+            नमस्ते! मैं Shani हूँ। मैं Computer और Digital Skills
+            सीख रहा हूँ और अपनी खुद की projects बनाने की practice कर रहा हूँ।
+        </p>
+
+    </section>
+
+
+    <section id="skills">
+
+        <h2 class="title">My <span>Skills</span></h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Website का structure बनाना।</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Website को सुंदर और professional बनाना।</p>
+            </div>
+
+            <div class="card">
+                <h3>Computer</h3>
+                <p>Basic Computer और ADCA learning.</p>
+            </div>
+
+            <div class="card">
+                <h3>Video Editing</h3>
+                <p>Creative videos और content editing.</p>
+            </div>
+
+            <div class="card">
+                <h3>AI</h3>
+                <p>AI tools और creative projects explore करना।</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="projects">
+
+        <h2 class="title">My <span>Projects</span></h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>My First Website</h3>
+                <p>HTML और CSS से बनाई गई मेरी पहली website.</p>
+            </div>
+
+            <div class="card">
+                <h3>Video Editing</h3>
+                <p>मेरे video editing projects.</p>
+            </div>
+
+            <div class="card">
+                <h3>AI Projects</h3>
+                <p>AI से बनाए गए creative experiments.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="contact" id="contact">
+
+        <h2 class="title">Contact <span>Me</span></h2>
+
+        <p>Thanks for visiting my website!</p>
+
+        <a href="#home" class="btn">
+            Back to Home ↑
+        </a>
+
+    </section>
+
+
+    <footer>
+        © 2026 Shani Digital Hub | Made with HTML & CSS
+    </footer>
+
+</body>
+</html>3
